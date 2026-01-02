@@ -81,10 +81,17 @@ export default {
           busy: "rgb(239 68 68)",
           offline: "rgb(156 163 175)",
         },
+        neon: {
+          cyan: "#00f3ff",
+          magenta: "#ff00ff",
+          purple: "#bc13fe",
+          blue: "#4d4dff",
+        },
       },
       fontFamily: {
-        sans: ["var(--font-sans)"],
-        serif: ["var(--font-serif)"],
+        sans: ["Rajdhani", "var(--font-sans)"],
+        display: ["Orbitron", "var(--font-sans)"],
+        body: ["Rajdhani", "var(--font-sans)"],
         mono: ["var(--font-mono)"],
       },
       keyframes: {
@@ -100,6 +107,9 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      backgroundImage: {
+        'grid-pattern': "linear-gradient(to right, rgba(0, 243, 255, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 243, 255, 0.1) 1px, transparent 1px)",
       },
     },
   },
